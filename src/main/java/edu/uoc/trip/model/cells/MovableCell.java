@@ -46,5 +46,5 @@ public class MovableCell extends Cell implements Movable {
     public void move(Coordinate destination) {
         setCoordinate(destination.getRow(),destination.getColumn());
     }
-    
+
 }

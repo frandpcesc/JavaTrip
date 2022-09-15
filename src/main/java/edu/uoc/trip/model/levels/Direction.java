@@ -10,7 +10,7 @@ public enum Direction {
     UP(-1,0, 2),
     RIGHT(0, 1, 3),
     DOWN(1, 0, 0),
-    LEFT(0, -1, 1)
+    LEFT(0, -1, 1);
 
     private final int dRow;
     private final int dColumn;

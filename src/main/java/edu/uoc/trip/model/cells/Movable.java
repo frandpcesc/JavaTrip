@@ -1,5 +1,7 @@
 package edu.uoc.trip.model.cells;
 
+import edu.uoc.trip.model.utils.Coordinate;
+
 /**
  * This interfaces lists the methods that any cell which can be moved must code.
  *

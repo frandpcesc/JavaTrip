@@ -14,7 +14,7 @@ import edu.uoc.trip.model.utils.Coordinate;
 public class Cell {
 
     private Coordinate coordinate;
-    private CellType cell;
+    private CellType type;
 
     /**
      * Constructor

@@ -197,7 +197,7 @@ public enum CellType {
      */
     public static CellType map2CellType(char fileSymbol) {
         for(CellType ct : CellType.values()) {
-            if(ct.getFileSymbol == fileSymbol) {
+            if(ct.getFileSymbol() == fileSymbol) {
                 return ct;
             }
         }
