@@ -29,7 +29,7 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <Text layoutX="64.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Francesc Dentí">
+      <Text fill="WHITE" layoutX="64.0" layoutY="563.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Francesc Dentí">
          <font>
             <Font name="Arial Bold" size="34.0" />
          </font>
