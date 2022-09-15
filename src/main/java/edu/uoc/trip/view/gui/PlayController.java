@@ -209,4 +209,15 @@ public class PlayController {
             }
         }
     }
+
+    /**
+     * Reloads the current level of the game.
+     *
+     * @throws LevelException When there is a level exception/problem.
+     */
+    @FXML
+    private void onReload() throws LevelException {
+        game.reload();
+        update();
+    }
 }
