@@ -1,5 +1,6 @@
 package edu.uoc.trip.model.cells;
 
+import edu.uoc.trip.model.levels.Direction;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

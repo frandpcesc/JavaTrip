@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.utils.CoordinateTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:52:22" hostname="DESKTOP-SBT5L69" time="0.006">
+  <properties/>
+  <testcase name="Minimum - getRow" classname="edu.uoc.trip.model.utils.CoordinateTest" time="0.001"/>
+  <testcase name="Minimum - toString" classname="edu.uoc.trip.model.utils.CoordinateTest" time="0.001"/>
+  <testcase name="Minimum - getColumn" classname="edu.uoc.trip.model.utils.CoordinateTest" time="0.001"/>
+  <testcase name="Minimum - hashCode" classname="edu.uoc.trip.model.utils.CoordinateTest" time="0.001"/>
+  <testcase name="Minimum - equals" classname="edu.uoc.trip.model.utils.CoordinateTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

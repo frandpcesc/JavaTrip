@@ -3,8 +3,10 @@ plugins {
     id 'java'
     id 'org.openjfx.javafxplugin' version '0.0.10'
     id 'checkstyle'
-    //id "org.beryx.jlink" version "2.24.4" //uncomment for jlink
 }
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
 
 group 'edu.uoc'
 version '1.0'
@@ -99,7 +101,7 @@ task testAll(type:Test){
 jar {
     manifest {
         attributes (
-            'Main-Class' : 'edu.uoc.trip.view.gui.Main'
+                'Main-Class' : 'edu.uoc.trip.view.gui.Main'
         )
     }
     from {
@@ -115,3 +117,5 @@ application{
     mainModule = "edu.uoc.trip"
     mainClassName = "edu.uoc.trip.view.gui.Main"
 }
+sourceCompatibility = JavaVersion.VERSION_14
+targetCompatibility = JavaVersion.VERSION_14

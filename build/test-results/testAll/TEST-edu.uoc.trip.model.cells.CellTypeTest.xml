@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.cells.CellTypeTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:53:14" hostname="DESKTOP-SBT5L69" time="0.043">
+  <properties/>
+  <testcase name="Sanity - Methods and Constructors definition" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.004"/>
+  <testcase name="Minimum - getUnicodeRepresentation" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.001"/>
+  <testcase name="Minimum - getAvailableConnections" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.005"/>
+  <testcase name="Sanity - Enum definition" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.002"/>
+  <testcase name="Minimum - next" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.001"/>
+  <testcase name="Minimum - getImageSrc" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.001"/>
+  <testcase name="Minimum - map2CellType" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.0"/>
+  <testcase name="Sanity - Fields definition" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.009"/>
+  <testcase name="Minimum - getFileSymbol" classname="edu.uoc.trip.model.cells.CellTypeTest" time="0.009"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

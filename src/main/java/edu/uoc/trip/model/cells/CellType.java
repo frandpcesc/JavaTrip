@@ -11,80 +11,67 @@ import java.util.EnumSet;
  * @version 1.0
  */
 public enum CellType {
-    START('S', '\u005e', "start.png", new boolean[]{true, false, false, false} ){
-        @Override
+    START('S', '\u005e', "start.png", true, false, false, false){
         public CellType next() {
             return null;
         }
     },
-    FINISH('F', '\u0076', "finish.png", new boolean[]{false, false, true, false}){
-        @Override
+    FINISH('F', '\u0076', "finish.png", false, false, true, false){
         public CellType next() {
             return null;
         }
     },
-    MOUNTAINS('M', '\u004d', "mountains.png", new boolean[]{false, false, false, false}){
-        @Override
+    MOUNTAINS('M', '\u004d', "mountains.png", false, false, false, false){
         public CellType next() {
             return null;
         }
     },
-    RIVER('~', '~', "river.png", new boolean[]{false, false, false, false}){
-        @Override
+    RIVER('~', '~', "river.png", false, false, false, false){
         public CellType next() {
             return null;
         }
     },
-    VERTICAL('V', '\u2551', "road_vertical.png", new boolean[]{true, false, true, false}){
-        @Override
+    VERTICAL('V', '\u2551', "road_vertical.png", true, false, true, false){
         public CellType next() {
             return CellType.HORIZONTAL;
         }
     },
-    HORIZONTAL('H', '\u2550', "road_horizontal.png", new boolean[]{false, true, false, true}){
-        @Override
+    HORIZONTAL('H', '\u2550', "road_horizontal.png", false, true, false, true){
         public CellType next() {
             return CellType.VERTICAL;
         }
     },
-    BOTTOM_RIGHT('r', '\u2554', "road_bottom_right.png", new boolean[]{false, true, true, false}){
-        @Override
+    BOTTOM_RIGHT('r', '\u2554', "road_bottom_right.png", false, true, true, false){
         public CellType next() {
             return CellType.BOTTOM_LEFT;
         }
     },
-    BOTTOM_LEFT('l', '\u2557', "road_bottom_left.png", new boolean[]{false, false, true, true}){
-        @Override
+    BOTTOM_LEFT('l', '\u2557', "road_bottom_left.png", false, false, true, true){
         public CellType next() {
             return CellType.TOP_LEFT;
         }
     },
-    TOP_RIGHT('R', '\u255a', "road_top_right.png", new boolean[]{true, true, false, false}){
-        @Override
+    TOP_RIGHT('R', '\u255a', "road_top_right.png", true, true, false, false){
         public CellType next() {
             return CellType.BOTTOM_RIGHT;
         }
     },
-    TOP_LEFT('L', '\u255D', "road_top_left.png", new boolean[]{true, false, false, true}){
-        @Override
+    TOP_LEFT('L', '\u255D', "road_top_left.png", true, false, false, true){
         public CellType next() {
             return CellType.TOP_RIGHT;
         }
     },
-    FREE('·', '\u00b7', "free.png", new boolean[]{false, false, false,false}) {
-        @Override
+    FREE('·', '\u00b7', "free.png", false, false, false,false) {
         public CellType next() {
             return null;
         }
     },
-    ROTATABLE_VERTICAL('G', '\u2503', "road_rotatable_vertical.png", new boolean[]{true, false, true, false}){
-        @Override
+    ROTATABLE_VERTICAL('G', '┃', "road_rotatable_vertical.png", true, false, true, false){
         public CellType next() {
             return CellType.ROTATABLE_HORIZONTAL;
         }
     },
-    ROTATABLE_HORIZONTAL('g', '\u2501', "road_rotatable_horizontal.png", new boolean[]{false, true, false, true}){
-        @Override
+    ROTATABLE_HORIZONTAL('g', '\u2501', "road_rotatable_horizontal.png", false, true, false, true){
         public CellType next() {
             return CellType.ROTATABLE_VERTICAL;
         }
@@ -103,7 +90,7 @@ public enum CellType {
      * @param imageSrc Name of the image that is used for GUI views.
      * @param connections Indicates where are the sides of the road.
      */
-    CellType(char fileSymbol, char unicodeRepresentation, String imageSrc, boolean...connections){
+    CellType(char fileSymbol, char unicodeRepresentation, String imageSrc, boolean ...connections){
         setFileSymbol(fileSymbol);
         setUnicodeRepresentation(unicodeRepresentation);
         setImageSrc(imageSrc);

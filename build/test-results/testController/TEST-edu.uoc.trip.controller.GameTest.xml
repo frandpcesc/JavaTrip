@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.controller.GameTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:53:05" hostname="DESKTOP-SBT5L69" time="0.089">
+  <properties/>
+  <testcase name="Controller - reload" classname="edu.uoc.trip.controller.GameTest" time="0.083"/>
+  <testcase name="Controller - nextLevel" classname="edu.uoc.trip.controller.GameTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

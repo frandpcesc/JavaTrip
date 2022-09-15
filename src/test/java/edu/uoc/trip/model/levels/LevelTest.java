@@ -1,5 +1,9 @@
 package edu.uoc.trip.model.levels;
 
+import edu.uoc.trip.model.cells.Cell;
+import edu.uoc.trip.model.cells.CellType;
+import edu.uoc.trip.model.cells.MovableCell;
+import edu.uoc.trip.model.cells.RotatableCell;
 import edu.uoc.trip.model.utils.Coordinate;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;

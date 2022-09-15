@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.levels.LevelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:52:22" hostname="DESKTOP-SBT5L69" time="0.092">
+  <properties/>
+  <testcase name="Minimum - swapCells" classname="edu.uoc.trip.model.levels.LevelTest" time="0.022"/>
+  <testcase name="Minimum - toString" classname="edu.uoc.trip.model.levels.LevelTest" time="0.028"/>
+  <testcase name="Minimum - rotateCell" classname="edu.uoc.trip.model.levels.LevelTest" time="0.003"/>
+  <testcase name="Minimum - getCell" classname="edu.uoc.trip.model.levels.LevelTest" time="0.005"/>
+  <testcase name="Minimum - getSize" classname="edu.uoc.trip.model.levels.LevelTest" time="0.004"/>
+  <testcase name="Minimum - getNumMoves" classname="edu.uoc.trip.model.levels.LevelTest" time="0.011"/>
+  <testcase name="Minimum - getDifficulty" classname="edu.uoc.trip.model.levels.LevelTest" time="0.003"/>
+  <testcase name="Minimum - Constructor exceptions" classname="edu.uoc.trip.model.levels.LevelTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

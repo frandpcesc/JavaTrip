@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.levels.DirectionTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:53:14" hostname="DESKTOP-SBT5L69" time="0.033">
+  <properties/>
+  <testcase name="Minimum - getValueByIndex" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.001"/>
+  <testcase name="Sanity - Methods and Constructors definition" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.005"/>
+  <testcase name="Sanity - Enum definition" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.002"/>
+  <testcase name="Minimum - getDRow" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.001"/>
+  <testcase name="Sanity - Fields definition" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.01"/>
+  <testcase name="Minimum - getDColumn" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.001"/>
+  <testcase name="Minimum - getOpposite" classname="edu.uoc.trip.model.levels.DirectionTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

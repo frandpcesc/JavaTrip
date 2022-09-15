@@ -1,6 +1,10 @@
 package edu.uoc.trip.view.gui;
 
 import edu.uoc.trip.controller.Game;
+import edu.uoc.trip.model.cells.Cell;
+import edu.uoc.trip.model.cells.MovableCell;
+import edu.uoc.trip.model.cells.RotatableCell;
+import edu.uoc.trip.model.levels.LevelException;
 import edu.uoc.trip.model.utils.Coordinate;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.cells.MovableCellTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:51:41" hostname="DESKTOP-SBT5L69" time="0.017">
+  <properties/>
+  <testcase name="Sanity - Class definition" classname="edu.uoc.trip.model.cells.MovableCellTest" time="0.008"/>
+  <testcase name="Sanity - Methods and Constructors definition" classname="edu.uoc.trip.model.cells.MovableCellTest" time="0.004"/>
+  <testcase name="Sanity - Fields definition" classname="edu.uoc.trip.model.cells.MovableCellTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.cells.RotatableTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:51:41" hostname="DESKTOP-SBT5L69" time="0.005">
+  <properties/>
+  <testcase name="Sanity - Methods definition" classname="edu.uoc.trip.model.cells.RotatableTest" time="0.001"/>
+  <testcase name="Sanity - Fields definition" classname="edu.uoc.trip.model.cells.RotatableTest" time="0.001"/>
+  <testcase name="Sanity - Interface definition" classname="edu.uoc.trip.model.cells.RotatableTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

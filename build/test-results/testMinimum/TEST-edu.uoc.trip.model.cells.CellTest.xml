@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.uoc.trip.model.cells.CellTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-09-15T15:52:22" hostname="DESKTOP-SBT5L69" time="0.026">
+  <properties/>
+  <testcase name="Minimum - toString" classname="edu.uoc.trip.model.cells.CellTest" time="0.015"/>
+  <testcase name="Minimum - getCoordinate" classname="edu.uoc.trip.model.cells.CellTest" time="0.001"/>
+  <testcase name="Minimum - getType" classname="edu.uoc.trip.model.cells.CellTest" time="0.002"/>
+  <testcase name="Minimum - isRotatable" classname="edu.uoc.trip.model.cells.CellTest" time="0.001"/>
+  <testcase name="Minimum - isMovable" classname="edu.uoc.trip.model.cells.CellTest" time="0.001"/>
+  <testcase name="Minimum - setCoordinate" classname="edu.uoc.trip.model.cells.CellTest" time="0.001"/>
+  <testcase name="Minimum - setType" classname="edu.uoc.trip.model.cells.CellTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
