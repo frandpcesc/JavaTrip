@@ -1,7 +1,10 @@
 package edu.uoc.trip.controller;
 
 import edu.uoc.trip.model.levels.Level;
+import edu.uoc.trip.model.levels.LevelDifficulty;
+import edu.uoc.trip.model.levels.LevelException;
 import edu.uoc.trip.model.utils.Coordinate;
+import edu.uoc.trip.model.cells.Cell;
 
 import java.io.*;
 import java.net.*;
@@ -18,6 +21,7 @@ import java.util.Objects;
  * This class is called from the view classes in order to access/modify the model data.
  *
  *  @author David García-Solórzano
+ * @author Francesc Dentí
  *  @version 1.0
  */
 public class Game {
@@ -152,6 +156,7 @@ public class Game {
      */
     private boolean isFinished() {
         //TODO
+        return getCurrentLevel() == maxLevels;
     }
 
     /**
@@ -171,6 +176,13 @@ public class Game {
      */
     public boolean nextLevel() throws LevelException {
         //TODO
+        if(!isFinished()) {
+            currentLevel++;
+            loadLevel();
+            return true;
+        }else {
+            return false;
+        }
     }
 
     /**
@@ -181,6 +193,7 @@ public class Game {
      */
     private void loadLevel() throws LevelException {
         //TODO
+        level = new Level(getFileFolder()+"level"+currentLevel+".txt");
     }
 
     /**
@@ -255,5 +268,6 @@ public class Game {
      */
     public void reload() throws LevelException {
         //TODO
+        loadLevel();
     }
 }
