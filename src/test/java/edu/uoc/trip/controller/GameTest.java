@@ -1,5 +1,6 @@
 package edu.uoc.trip.controller;
 
+import edu.uoc.trip.model.levels.LevelException;
 import edu.uoc.trip.model.utils.Coordinate;
 import org.junit.jupiter.api.*;
 import org.junit.platform.commons.support.ModifierSupport;
