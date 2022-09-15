@@ -2,6 +2,8 @@ package edu.uoc.trip.view.cmd;
 
 import edu.uoc.trip.controller.Game;
 import edu.uoc.trip.model.utils.Coordinate;
+import edu.uoc.trip.model.cells.RotatableCell;
+import edu.uoc.trip.model.levels.LevelException;
 
 import java.io.IOException;
 import java.util.Scanner;
